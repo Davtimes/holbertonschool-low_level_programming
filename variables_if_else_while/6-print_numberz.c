@@ -6,8 +6,7 @@
 int main(void)
 {
 	int az;
-
-for (az = 0; az < 10; az++)
+	for (az = 0; az < 10; az++)
 			putchar(az + '0');
 
 	putchar('\n');
