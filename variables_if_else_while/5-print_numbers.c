@@ -7,7 +7,7 @@ int main(void)
 {
 	int az;
 
-	for (az = 0; az <= 9; az++)
+	for (az=0; az<=9; az++)
     printf("%d", az);
 	putchar('\n');
 	return (0);
