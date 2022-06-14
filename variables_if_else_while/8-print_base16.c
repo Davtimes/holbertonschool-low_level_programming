@@ -5,13 +5,23 @@
 */
 int main(void)
 {
-	int az;
-    char l;
+	int i;
+	char l;
 
-for (az = 0; az <= 9; az++)
-	putchar(az + '0');
-for (l = "a"; l <= "f"; l++)
-	putchar(l);
+	i = 48;
+	while  (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	l = 'a';
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
 	putchar('\n');
+
 	return (0);
 }
