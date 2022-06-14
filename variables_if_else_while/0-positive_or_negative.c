@@ -6,7 +6,7 @@
  * si es mayor que cero 0
  * si es menor que cero 0
  * si es igual a cero 0
- * Retorna 0
+ * Return: retorna cero 0
 */
 int main(void)
 {
