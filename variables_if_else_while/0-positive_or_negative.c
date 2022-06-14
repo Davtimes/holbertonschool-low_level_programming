@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- Seleccion un numero aleatorio y determina:
+ * main - selecciona un numero aleatorio y determina:
  * si es mayor que cero 0
  * si es menor que cero 0
  * si es igual a cero 0
@@ -22,4 +22,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
- 
