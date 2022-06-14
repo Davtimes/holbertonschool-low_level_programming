@@ -4,8 +4,9 @@
 /**
  * main - selecciona un numero aleatorio y determina:
  * El ultimo numero al cual determina:
- * si es menor que cero 0
+ * si es mayor que 5, 
  * si es igual a cero 0
+ * si es menor que 6 y no de 0
  * Return: retorna cero 0
 */
 int main(void)
