@@ -7,8 +7,8 @@ int main(void)
 {
 	int az;
 
-	for (az = 0; az <= 9; az++)
-			putchar(n);
+	for (az = 48; az <= 58; az++)
+			putchar(az);
 
 	putchar('\n');
 	return (0);
