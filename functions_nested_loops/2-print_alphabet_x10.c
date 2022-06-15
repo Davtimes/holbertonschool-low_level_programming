@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Imprime el alfabeto 10 veces
- *
+ * print_alphabet_x10 - Ciclo que repite la funcion print_alphabet 10 veces
+ * print_alphabet - Imprime el alfabeto
  * Return: retorna 0
  */
 
