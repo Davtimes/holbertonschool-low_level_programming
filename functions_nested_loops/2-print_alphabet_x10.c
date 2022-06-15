@@ -4,17 +4,23 @@
  *
  * Return: retorna 0
  */
-void print_alphabet_x10(void);
-{
-    int n = 0;
-	char a;
-    while (n < 10){
-			for (a = 'a'; a <= 'z'; a++){
-                     _putchar(a);
-			}
-		_putchar('\n');
-		n++
+
+void print_alphabet_x10(void)
+	{
+	int n;
+
+	for (n = 0; n < 10; n++)
+	{
+	print_alphabet();
 	}
-		
-	return;
+	}
+void print_alphabet(void)
+{
+
+	char a;
+
+	for (a = 'a'; a <= 'z'; a++)
+		_putchar(a);
+
+	_putchar('\n');
 }
