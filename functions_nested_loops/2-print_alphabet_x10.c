@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	}
 	}
 /**
-* print_alphabet - print all of the lower case alphabets
+* print_alphabet - Imprime el alfabeto en minuscula
 */
 
 void print_alphabet(void)
