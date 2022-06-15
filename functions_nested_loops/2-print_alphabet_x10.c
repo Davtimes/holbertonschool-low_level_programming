@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - Ciclo que repite la funcion print_alphabet 10 veces
- * print_alphabet - Imprime el alfabeto
+ 
  * Return: retorna 0
  */
 
@@ -14,6 +14,10 @@ void print_alphabet_x10(void)
 	print_alphabet();
 	}
 	}
+/**
+ * print_alphabet - Imprime el alfabeto
+ * 
+ */
 void print_alphabet(void)
 {
 
