@@ -3,6 +3,7 @@
  * main - Imprime "_putchar" con una nuevalinea al final
  * Return: Retorna 
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -13,6 +14,9 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
+
+	_putchar(10);
+
 	return (0);
 }
+
