@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- Imprime _putchar seguido por una nueva linea
+ * main- Imprime el alfabeto
  *
  * Return: retorna 0
  */
@@ -9,8 +9,8 @@ void print_alphabet(void)
 
 	char a;
 
-	for (a = 'a'; n <= 'z'; n++)
-		_putchar(n);
+	for (a = 'a'; a <= 'z'; a++)
+		_putchar(a);
 
 	_putchar('\n');
 }
